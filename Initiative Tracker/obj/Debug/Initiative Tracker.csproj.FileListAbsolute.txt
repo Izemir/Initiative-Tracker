@@ -4,10 +4,10 @@ C:\Users\Izemir\Desktop\C# Projects\Initiative Tracker\Initiative Tracker\bin\De
 C:\Users\Izemir\Desktop\C# Projects\Initiative Tracker\Initiative Tracker\obj\Debug\Initiative Tracker.csprojAssemblyReference.cache
 C:\Users\Izemir\Desktop\C# Projects\Initiative Tracker\Initiative Tracker\obj\Debug\Initiative_Tracker.Properties.Resources.resources
 C:\Users\Izemir\Desktop\C# Projects\Initiative Tracker\Initiative Tracker\obj\Debug\Initiative Tracker.csproj.GenerateResource.cache
-C:\Users\Izemir\Desktop\C# Projects\Initiative Tracker\Initiative Tracker\obj\Debug\Initiative Tracker.csproj.CoreCompileInputs.cache
 C:\Users\Izemir\Desktop\C# Projects\Initiative Tracker\Initiative Tracker\obj\Debug\Initiative Tracker.exe
 C:\Users\Izemir\Desktop\C# Projects\Initiative Tracker\Initiative Tracker\obj\Debug\Initiative Tracker.pdb
 C:\Users\Izemir\Desktop\C# Projects\Initiative Tracker\Initiative Tracker\obj\Debug\Initiative_Tracker.Tracker.resources
+<<<<<<< HEAD
 C:\Users\Krista25\Desktop\Clone\Initiative-Tracker\Initiative Tracker\obj\Debug\Initiative Tracker.exe
 C:\Users\Krista25\Desktop\Clone\Initiative-Tracker\Initiative Tracker\obj\Debug\Initiative Tracker.pdb
 C:\Users\Krista25\Desktop\Clone\Initiative-Tracker\Initiative Tracker\bin\Debug\Initiative Tracker.exe.config
@@ -28,3 +28,8 @@ C:\Users\Krista25\Desktop\Clone\Initiative-Tracker\Initiative Tracker\obj\Debug\
 C:\Users\Krista25\Desktop\Clone\Initiative-Tracker\Initiative Tracker\obj\Debug\Initiative_Tracker.DataSaved.resources
 C:\Users\Krista25\Desktop\Clone\Initiative-Tracker\Initiative Tracker\obj\Debug\Initiative_Tracker.LoadList.resources
 C:\Users\Krista25\Desktop\Clone\Initiative-Tracker\Initiative Tracker\obj\Debug\Initiative_Tracker.NoFileError.resources
+=======
+C:\Users\Izemir\Desktop\C# Projects\Initiative Tracker\Initiative Tracker\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Izemir\Desktop\C# Projects\Initiative Tracker\Initiative Tracker\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Izemir\Desktop\C# Projects\Initiative Tracker\Initiative Tracker\obj\Debug\Initiative Tracker.csproj.CopyComplete
+>>>>>>> 87a35ea47af4040f89f5c5111bc8e6017e95da58
