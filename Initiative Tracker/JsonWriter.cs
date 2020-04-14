@@ -19,17 +19,31 @@ namespace Initiative_Tracker
 
         public void Write(Creature cr)
         {
-            
 
-           
+            JsonReader r = new JsonReader();
+            creatures = r.Read(0, cr.isMonster);
+            creatures.Add(cr);
 
-            
-
-            using (StreamWriter file = File.CreateText(@"creatures.json"))
+            if (cr.isMonster)
             {
-                JsonSerializer serializer = new JsonSerializer();
-                serializer.Serialize(file, creatures);
+                
+                using (StreamWriter file = File.CreateText(@"creatures.json"))
+                {
+                    JsonSerializer serializer = new JsonSerializer();
+                    serializer.Serialize(file, creatures);
+                }
             }
+            else
+            {
+                using (StreamWriter file = File.CreateText(@"players.json"))
+                {
+                    JsonSerializer serializer = new JsonSerializer();
+                    serializer.Serialize(file, creatures);
+                }
+            }
+            
+
+            
 
 
 

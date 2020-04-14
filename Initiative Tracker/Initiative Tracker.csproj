@@ -8,10 +8,11 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>Initiative_Tracker</RootNamespace>
     <AssemblyName>Initiative Tracker</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -49,9 +50,51 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddNewCreature.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewCreature.Designer.cs">
+      <DependentUpon>AddNewCreature.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BadNumberError.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BadNumberError.Designer.cs">
+      <DependentUpon>BadNumberError.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSaved.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataSaved.Designer.cs">
+      <DependentUpon>DataSaved.cs</DependentUpon>
+    </Compile>
     <Compile Include="JsonReader.cs" />
     <Compile Include="JsonWriter.cs" />
     <Compile Include="Creature.cs" />
+    <Compile Include="LoadList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoadList.Designer.cs">
+      <DependentUpon>LoadList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NoFileError.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NoFileError.Designer.cs">
+      <DependentUpon>NoFileError.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaveList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaveList.Designer.cs">
+      <DependentUpon>SaveList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SetInitiative.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetInitiative.Designer.cs">
+      <DependentUpon>SetInitiative.cs</DependentUpon>
+    </Compile>
     <Compile Include="Tracker.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +103,27 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddNewCreature.resx">
+      <DependentUpon>AddNewCreature.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BadNumberError.resx">
+      <DependentUpon>BadNumberError.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataSaved.resx">
+      <DependentUpon>DataSaved.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoadList.resx">
+      <DependentUpon>LoadList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NoFileError.resx">
+      <DependentUpon>NoFileError.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaveList.resx">
+      <DependentUpon>SaveList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SetInitiative.resx">
+      <DependentUpon>SetInitiative.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Tracker.resx">
       <DependentUpon>Tracker.cs</DependentUpon>
     </EmbeddedResource>
@@ -71,6 +135,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

@@ -9,13 +9,16 @@ namespace Initiative_Tracker
     class Creature
     {
         public String name { get; set; }
-        
-        public short bonus { get; set; }
 
-        public Creature(String name, short bonus)
+        public bool isMonster { get; set; }
+
+        public int bonus { get; set; }
+
+        public Creature(String name, int bonus, bool isMonster)
         {
             this.name = name;
             this.bonus = bonus;
+            this.isMonster = isMonster;
         }
 
 

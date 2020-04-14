@@ -13,7 +13,7 @@ namespace Initiative_Tracker
 
         List<Creature> creatures { get; set; }
 
-        Boolean error { get; set; }
+        public Boolean error { get; set; }
 
         public JsonReader() {
             creatures = new List<Creature>();
@@ -22,17 +22,33 @@ namespace Initiative_Tracker
         }
 
 
-        public List <Creature> Read(int id)
+        public List <Creature> Read(int id, bool isMonster)
         {
 
             try
             {
-                using (StreamReader r = new StreamReader("creatures.json"))
+
+                if (isMonster)
                 {
+                    using (StreamReader r = new StreamReader("creatures.json"))
+                    {
 
-                    string json = r.ReadLine();
-                    creatures = JsonConvert.DeserializeObject<List<Creature>>(json);
+                        string json = r.ReadLine();
+                        creatures = JsonConvert.DeserializeObject<List<Creature>>(json);
 
+
+                    }
+                }
+                else
+                {
+                    using (StreamReader r = new StreamReader("players.json"))
+                    {
+
+                        string json = r.ReadLine();
+                        creatures = JsonConvert.DeserializeObject<List<Creature>>(json);
+
+
+                    }
 
                 }
 
