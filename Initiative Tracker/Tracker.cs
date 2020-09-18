@@ -269,6 +269,16 @@ namespace Initiative_Tracker
             LoadList newForm = new LoadList(this, false);
             newForm.Show();
         }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
     // Compares two ListView items based on a selected column.

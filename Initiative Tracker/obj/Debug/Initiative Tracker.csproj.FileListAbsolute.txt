@@ -28,3 +28,23 @@ C:\Users\Krista25\Desktop\Clone\Initiative-Tracker\Initiative Tracker\obj\Debug\
 C:\Users\Krista25\Desktop\Clone\Initiative-Tracker\Initiative Tracker\obj\Debug\Initiative_Tracker.DataSaved.resources
 C:\Users\Krista25\Desktop\Clone\Initiative-Tracker\Initiative Tracker\obj\Debug\Initiative_Tracker.LoadList.resources
 C:\Users\Krista25\Desktop\Clone\Initiative-Tracker\Initiative Tracker\obj\Debug\Initiative_Tracker.NoFileError.resources
+C:\Users\Krista25\Desktop\Initiative-Tracker\Initiative Tracker\bin\Debug\Initiative Tracker.exe.config
+C:\Users\Krista25\Desktop\Initiative-Tracker\Initiative Tracker\bin\Debug\Initiative Tracker.exe
+C:\Users\Krista25\Desktop\Initiative-Tracker\Initiative Tracker\bin\Debug\Initiative Tracker.pdb
+C:\Users\Krista25\Desktop\Initiative-Tracker\Initiative Tracker\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Krista25\Desktop\Initiative-Tracker\Initiative Tracker\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Krista25\Desktop\Initiative-Tracker\Initiative Tracker\obj\Debug\Initiative Tracker.csprojAssemblyReference.cache
+C:\Users\Krista25\Desktop\Initiative-Tracker\Initiative Tracker\obj\Debug\Initiative_Tracker.AddNewCreature.resources
+C:\Users\Krista25\Desktop\Initiative-Tracker\Initiative Tracker\obj\Debug\Initiative_Tracker.BadNumberError.resources
+C:\Users\Krista25\Desktop\Initiative-Tracker\Initiative Tracker\obj\Debug\Initiative_Tracker.DataSaved.resources
+C:\Users\Krista25\Desktop\Initiative-Tracker\Initiative Tracker\obj\Debug\Initiative_Tracker.LoadList.resources
+C:\Users\Krista25\Desktop\Initiative-Tracker\Initiative Tracker\obj\Debug\Initiative_Tracker.NoFileError.resources
+C:\Users\Krista25\Desktop\Initiative-Tracker\Initiative Tracker\obj\Debug\Initiative_Tracker.SaveList.resources
+C:\Users\Krista25\Desktop\Initiative-Tracker\Initiative Tracker\obj\Debug\Initiative_Tracker.SetInitiative.resources
+C:\Users\Krista25\Desktop\Initiative-Tracker\Initiative Tracker\obj\Debug\Initiative_Tracker.Tracker.resources
+C:\Users\Krista25\Desktop\Initiative-Tracker\Initiative Tracker\obj\Debug\Initiative_Tracker.Properties.Resources.resources
+C:\Users\Krista25\Desktop\Initiative-Tracker\Initiative Tracker\obj\Debug\Initiative Tracker.csproj.GenerateResource.cache
+C:\Users\Krista25\Desktop\Initiative-Tracker\Initiative Tracker\obj\Debug\Initiative Tracker.csproj.CoreCompileInputs.cache
+C:\Users\Krista25\Desktop\Initiative-Tracker\Initiative Tracker\obj\Debug\Initiative Tracker.csproj.CopyComplete
+C:\Users\Krista25\Desktop\Initiative-Tracker\Initiative Tracker\obj\Debug\Initiative Tracker.exe
+C:\Users\Krista25\Desktop\Initiative-Tracker\Initiative Tracker\obj\Debug\Initiative Tracker.pdb

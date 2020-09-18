@@ -14,6 +14,21 @@ namespace Initiative_Tracker
 
         public int bonus { get; set; }
 
+        public int passPerception { get; set; }
+
+        public int bonusPerception { get; set; }
+
+        public int bonusStealth { get; set; }
+        public int ac { get; set; }
+
+        public int hits { get; set; }
+
+        public int hitDice { get; set; }
+
+        public int bonusHit { get; set; }
+
+
+
         public Creature(String name, int bonus, bool isMonster)
         {
             this.name = name;
